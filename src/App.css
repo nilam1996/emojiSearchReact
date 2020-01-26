@@ -13,17 +13,36 @@
 .main img{
   padding: 0 8px;
 }
-.search input{
+.search{
   margin-left: 1%;
   margin-right: 1%;
   width: 97%;
   height: 35px;
   /* margin-top: 2%; */
 }
-.emoji_class{
+.list{
   height: 40px;
   width:100%;
   border-bottom: 1px solid #ccc;  
   font-size: 25px;
   margin-top: 15px;
+  list-style-type: none;
 }
+.github_link{
+  width: 18.1em;
+  height: 2em;
+  position: absolute;
+  top: 28px;
+  right: -10px;
+  font-size: 11px;
+  border-radius:50px ;
+  background-color:rgb(19, 26, 18);
+  transform: rotate(35deg);
+  text-align: center;
+  text-decoration: none;
+  content: attr(title);
+  padding: .38em 0;
+  line-height: 1.54em;
+  color:white;
+}
+
